@@ -1,0 +1,12 @@
+#heading {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#report_table {
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 3%;
+}

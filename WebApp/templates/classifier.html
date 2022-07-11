@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="../static/RSS/Logo_Favicon.ico" style="border-radius: 50%;">
+
+    <title>CNN Machinery Classifier</title>
+
+    <link rel="stylesheet" href="../static/RSS/classifier.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <input id="input-b1" name="input-b1" type="file" class="file" data-browse-on-zone-click="true"> -->
+    <div id="BOX" style="height: 100%">
+        <form class="box" method="post" action="" enctype="multipart/form-data">
+            <image src="../static/RSS/Dropbox_Logo.png" id="dbox" />
+            <div class="box__input">
+                <!-- <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple /> -->
+                <div id="chooseOrDragNDrop"><label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label></div>
+                <!-- <button class="box__button" type="submit">Upload</button> -->
+            </div>
+            <div class="box__uploading">Uploading…</div>
+            <div class="box__success">Done!</div>
+            <div class="box__error">Error! <span></span>.</div>
+        </form>
+        <div id="uploadBtn"><button type="button" class="btn btn-primary btn-lg">UPLOAD</button></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../static/RSS/classifier.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+
+.box.has-advanced-upload {
+    background-color: white;
+    outline: 2px dashed black;
+    outline-offset: -10px;
+    width: 50%;
+    /* height: 500px; */
+    margin: 7% 23%;
+    padding: 10% 10%;
+}
+
+.box.has-advanced-upload .box__dragndrop {
+    display: inline;
+}
+
+.box.is-dragover {
+    background-color: grey;
+}
+
+#dbox {
+    margin: -5% 10% 0% 27%;
+}
+
+#chooseOrDragNDrop {
+    margin: 0% 0% 0% 30%;
+}
+
+/* .box {
+    width: 500%;
+    height: 500%;
+} */
+
+#uploadBtn {
+    margin: -5% 0% 5% 45%;
+}
